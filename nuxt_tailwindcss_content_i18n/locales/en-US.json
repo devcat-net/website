@@ -1,4 +1,29 @@
 {
-  "headline": "Welcome to Nuxt Tailwindcss Content i18n",
-  "subheadline": "This is the index page"
+  "hero": {
+    "title": "Welcome to Our Amazing App",
+    "subtitle": "Discover a new way of doing things",
+    "cta": "Get Started"
+  },
+  "features": {
+    "title": "Our Features",
+    "feature1": {
+      "title": "Easy to Use",
+      "description": "Our app is designed with simplicity in mind"
+    },
+    "feature2": {
+      "title": "Powerful",
+      "description": "Unlock the full potential of our tools"
+    },
+    "feature3": {
+      "title": "Secure",
+      "description": "Your data is safe with us"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Amazing App. All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
 }

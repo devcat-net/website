@@ -1,4 +1,29 @@
 {
-  "headline": "Willkommen zu Nuxt Tailwindcss Content i18n",
-  "subheadline": "Das ist die Indexseite"
+  "hero": {
+    "title": "Willkommen bei unserer fantastischen App",
+    "subtitle": "Entdecke eine neue Art, Dinge zu erledigen",
+    "cta": "Jetzt loslegen"
+  },
+  "features": {
+    "title": "Unsere Funktionen",
+    "feature1": {
+      "title": "Einfach zu bedienen",
+      "description": "Unsere App wurde mit Blick auf Einfachheit entwickelt"
+    },
+    "feature2": {
+      "title": "Leistungsstark",
+      "description": "Nutze das volle Potenzial unserer Tools"
+    },
+    "feature3": {
+      "title": "Sicher",
+      "description": "Deine Daten sind bei uns sicher"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Fantastische App. Alle Rechte vorbehalten.",
+    "links": {
+      "privacy": "Datenschutzrichtlinie",
+      "terms": "Nutzungsbedingungen"
+    }
+  }
 }

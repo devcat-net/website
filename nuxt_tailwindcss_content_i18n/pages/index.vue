@@ -1,18 +1,13 @@
 <template>
-  <div>
-    <h1 class="mt-4 text-4xl font-bold text-center">
-      {{ $t("headline") }}
-    </h1>
-    <p class="text-center">{{ $t("subheadline") }}</p>
-    <form class="text-center">
-      <select v-model="locale">
-        <option value="en">English</option>
-        <option value="de">Deutsch</option>
-      </select>
-    </form>
+  <div class="mx-auto max-w-7xl">
+    <Hero />
+    <Features />
+    <FooterComponent />
   </div>
 </template>
 
 <script setup lang="ts">
-const { locale } = useI18n();
+import Hero from '~/components/Hero.vue';
+import Features from '~/components/Features.vue';
+import FooterComponent from '~/components/Footer.vue';
 </script>
