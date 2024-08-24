@@ -2,7 +2,12 @@
   "hero": {
     "title": "Willkommen bei unserer fantastischen App",
     "subtitle": "Entdecke eine neue Art, Dinge zu erledigen",
-    "cta": "Jetzt loslegen"
+    "cta": "Jetzt loslegen",
+    "content_button": "Inhalt anzeigen"
+  },
+  "content": {
+    "title": "Inhaltsseite",
+    "back_to_home": "Zurück zur Startseite"
   },
   "features": {
     "title": "Unsere Funktionen",

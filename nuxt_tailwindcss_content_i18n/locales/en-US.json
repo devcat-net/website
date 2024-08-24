@@ -2,7 +2,12 @@
   "hero": {
     "title": "Welcome to Our Amazing App",
     "subtitle": "Discover a new way of doing things",
-    "cta": "Get Started"
+    "cta": "Get Started",
+    "content_button":"View Content"
+  },
+  "content": {
+    "title": "Content Page",
+    "back_to_home": "Back to Home"
   },
   "features": {
     "title": "Our Features",

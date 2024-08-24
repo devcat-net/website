@@ -8,6 +8,12 @@
           <button class="bg-white text-blue-600 py-2 px-6 rounded-full font-bold hover:bg-blue-100 transition duration-300">
             {{ $t('hero.cta') }}
           </button>
+          <NuxtLink 
+            :to="localePath('/content')" 
+            class="bg-blue-500 text-white py-2 px-6 rounded-full font-bold hover:bg-blue-400 transition duration-300"
+          >
+            {{ $t('hero.content_button') }}
+          </NuxtLink>
         </div>
         <div class="ml-auto">
           <LanguageSelector />
@@ -16,3 +22,7 @@
     </div>
   </section>
 </template>
+<script setup lang="ts">
+const { t } = useI18n()
+const localePath = useLocalePath()
+</script>
