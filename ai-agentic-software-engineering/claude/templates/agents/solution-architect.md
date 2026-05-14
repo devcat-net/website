@@ -276,7 +276,7 @@ User → Widget → Controller → Repository → LocalDataSource + RemoteDataSo
   graph TD
       A[Page: feature.vue] --> B[useFeature composable]
       B --> C[Backend SDK]
-      B --> D[featureStore [NEU]]
+      B --> D[featureStore NEU]
   ```
 - Mermaid **Sequenzdiagramm** für den Haupt-Flow:
   ```mermaid
