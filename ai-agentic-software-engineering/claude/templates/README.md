@@ -421,7 +421,7 @@ Projektinfos:
 - Codegen Command: keiner
 - Developer Agent: nuxt-developer
 - Coding-Guidelines: .claude/rules/coding-guidelines.md
-- Agent-Memory: /Users/sergeiliebich/Development/blog/.claude/agent-memory/realisierungsplan/
+- Agent-Memory: ./.claude/agent-memory/realisierungsplan/
 
 Schalter:
 - PHASES_GROUPING: ja (Pläne können mehrere Schichten betreffen: Content-Schema,
